@@ -1,0 +1,13 @@
+#the number of nodes, the number of edges
+#edge(node node)
+11	10
+1	2
+2	3
+3	4
+4	11
+11	5
+5	7
+4	6
+7	8
+8	9
+9	10

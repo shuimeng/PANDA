@@ -22,15 +22,13 @@ To Run the software:
 (2) “outputDirectory” is the folder path of the output files, 
 (3) “dataSetName” is the file name of the target graph data.
 (4) “labelFileName” is the file name of the label information of nodes in the graph.
-(5) “queryFileName” is the file name of the query graph. The system supports to run many queries at the same time, where you can add the index following the query file name for entitling the real query files.
+(5) “queryFileName” is the file name of the query graph. The system supports to run many queries at the same time, where you can add the index following the query file name.
 
-2. Open the terminal for the folder of Panda.jar.
+2. Open terminal to run java -jar XX/Panda.jar. Please make sure the configure file “config.properities” is located in the same directory as that of Panda.jar.
 
-3. Run java -jar XX/Panda.jar. Please make sure the configure file “config.properities” is located in the same directory as that of Panda.jar.
+3. You will see some abstract information in the output of terminal.
 
-4. You will see some abstract information in the output of terminal.
+4. Open "outputDirectory" folder and get the detailed information of matches in output files: one is for reporting the running time and other measurements; the other reports the found matched graph information including the merged subgraphs.
 
-5. Open "outputDirectory" folder and get the detailed information of matches in output files: one is for reporting the running time and other measurements; the other reports the found matched graph information including the merged subgraphs.
 
- 
-In the main function of Start.java, you can change the number of results parameter k and the desired algorithm variants.
+You can change the number of results parameter k and the desired algorithm variants in the main function of Start.java.

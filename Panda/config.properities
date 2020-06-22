@@ -1,0 +1,9 @@
+inputDirectory=/Users/shui/Documents/develop/matchdata/input/
+outputDirectory=/Users/shui/Documents/develop/matchdata/output/
+dataSetName=data
+labelFileName=datalabel
+queryFileName=query
+nemaFileName=bionet_nemaIndex
+betweenFile=bionetBetween
+hubDFileName=bionetDegree30
+hubBFileName=bionetBetween30

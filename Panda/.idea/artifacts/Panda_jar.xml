@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Panda:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Panda_jar</output-path>
+    <root id="archive" name="Panda.jar">
+      <element id="module-output" name="Panda" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/gs-core-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/gs-algo-1.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
